@@ -1,5 +1,13 @@
+import ColorList from './ColorList';
+import Form from './Form';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <Form />
+      <ColorList />
+    </main>
+  );
 };
 
 export default App;
